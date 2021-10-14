@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana,sans-serif;
+
+}
+nav{
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 1px 10px black;
+    height: 50px;
+    overflow: hidden;
+    letter-spacing: 4px;
+    background-color: white;
+    float: left;
+    width: 100%;
+    
+}
+.logo{
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    margin: 12px 16px 2px 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+.logo::before{
+    z-index: 1;
+    letter-spacing: 4px;
+    content:"Br";
+    margin: 4px;
+    font-weight: 580;
+    text-transform: uppercase;
+}
+.logo:hover{
+ background-color: rgba(128, 128, 128, 0.288);
+}
+.link{
+    float: right;
+    list-style: none;
+    text-decoration: none;
+    margin: 12px 16px 2px 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.link:hover{
+    background-color: rgba(128, 128, 128, 0.288);
+}
+.container{
+    width: 100%;
+    box-sizing: border-box;
+    height: fit-content;
+}
+.brand{
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.brand h1{
+    color: white;
+    letter-spacing: 4px;
+}
+.brand h1:before{
+    color: white;
+    letter-spacing: 4px;
+    content:"Br";
+    padding: 10px;
+    margin: 15px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+header img{
+    width: 100%;
+}
+.projects,.about{
+
+    clear: both;
+    width: 100%;
+}
+.projects h4,.about h4{
+    margin: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.247);
+    font-size: 22px;
+}
+.row1,.row2{
+    margin: 15px;
+}
+.box1,.box2{
+    float: left;
+    padding: 10px;
+    width: 25%;
+    box-sizing: border-box;
+}
+.box1 img,.box2 img{
+    width: 100%;
+}
+.tag{
+    float: left;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.about{
+    padding-top: 40px;
+}
+.about p{
+    padding: 5px 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.name{
+    font-size: 22px;
+
+}
+.position{
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.774);
+}
+.box2 button{
+    width: 100%;
+    outline: none;
+    background-color: rgba(48, 95, 60, 0.445);
+    height: 40px;
+    border: none;
+    font-size: medium;
+}
+.box2 button:hover{
+    box-shadow: 1px 1px 10px gray;
+    cursor: pointer;
+}
+.contact{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin: 35px;
+    clear: both;
+}
+.contact h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.247);
+    font-size: 22px;
+}
+form{
+    width: 100%;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.form_input{
+    margin: 20px;
+    width: 100%;
+    padding: 8px;
+    display: block;
+    border: none;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 18px;
+
+}
+.form_button{
+    padding: 12px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background-color: rgba(14, 41, 14, 0.733);
+}
+.map{
+    margin: 25px;
+}
+.map img{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+footer p{
+    text-align: center;
+    padding-top: 15px;
+}
